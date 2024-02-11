@@ -1,0 +1,4 @@
+baseURL = 'https://bjorgv.in/'
+languageCode = 'en-us'
+title = 'bjorgv.in'
+theme = 'bjorgv.in-classic'

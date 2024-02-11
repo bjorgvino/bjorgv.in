@@ -1,0 +1,18 @@
+name = 'bjorgv.in-classic'
+license = 'MIT'
+licenselink = 'https://github.com/bjorgvino/bjorgv.in/LICENSE'
+description = 'bjorgv.in classic theme'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/bjorgvino/'
+
+# If you have a running demo of the theme
+demosite = 'https://bjorgv.in/'
+
+# Taxonomy terms
+tags = ['portfolio', 'personal']
+
+# If the theme has a single author
+[author]
+  name = 'bjorgv.in'
+  homepage = 'https://bjorgv.in/'
