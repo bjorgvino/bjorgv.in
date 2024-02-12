@@ -1,0 +1,25 @@
+@media (max-width: 1210px) {
+    /* Fix intro text size on smaller screens */
+    .fs-split .split-intro {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    /* Fix content height when image is on top */
+    .fs-split .split-content {
+        min-height: initial;
+    }
+}
+@media (max-width: 800px) {
+    /* Limit image height when image is on top */
+    .fs-split .split-image {
+        min-height: 75vw;
+        max-height: 50vh;
+    }
+}
+@media (max-width: 500px) {
+    /* Fix intro text size on smaller screens */
+    .fs-split .split-intro {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}

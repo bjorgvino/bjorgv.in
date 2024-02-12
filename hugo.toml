@@ -1,4 +1,69 @@
 baseURL = 'https://bjorgv.in/'
 languageCode = 'en-us'
 title = 'bjorgv.in'
-theme = 'bjorgv.in-classic'
+# theme = 'bjorgv.in-classic'
+theme = 'hugo-split-theme'
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+
+# Copyright
+copyright = "&copy;2024 bjorgv.in"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Björgvin Olafsson"
+  description = "bjorgv.in björgvin ólafsson"
+  shareImage = "android-chrome-512x512.png"
+  twitterHandle = "bjorgvino"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Google Analytics
+  # TODO: Add cookie policy before enabling GA/GTM
+  # gtm_id = "G-37CBM7DYQ1"
+  # gtm_datalayer = "basic"
+
+  # Section - custom
+  [params.custom.css]
+    enable = true
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/boland-background-web.jpg"
+      position = "top center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Contact"
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/bjorgvino"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Code"
+
+      [[params.links.list2.link]]
+        text = "GitHub"
+        url = "https://github.com/bjorgvino"
+
+      [[params.links.list2.link]]
+        text = "Stack Overflow"
+        url = "https://stackoverflow.com/users/2915101/bjorgvin"
