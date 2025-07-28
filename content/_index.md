@@ -6,8 +6,12 @@ draft = false
 
 **Hi, I am Björgvin!**
 
-Raised in Iceland, living in [Stockholm, Sweden](https://www.google.com/maps?q=stockholm,+sweden), father of two.
+Raised in [Iceland](https://www.visiticeland.com/), living in [Stockholm, Sweden](https://www.google.com/maps?q=stockholm,+sweden), husband, father of two.
 
-M.Sc. in Machine Learning from the [Royal Institute of Technology (KTH)](https://www.kth.se/en).
+B.Sc. in Industrial Engineering from the [University of Iceland](https://english.hi.is/).
 
-Currently working for the digital health and therapeutics innovator [Sidekick Health](https://sidekickhealth.com/).
+M.Sc. in AI/Machine Learning from the [Royal Institute of Technology (KTH)](https://www.kth.se/en).
+
+I love to build things.
+
+Currently building stuff for the digital health and therapeutics innovator [Sidekick Health](https://sidekickhealth.com/).
