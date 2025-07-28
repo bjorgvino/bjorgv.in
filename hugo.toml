@@ -6,7 +6,7 @@ theme = 'hugo-split-theme'
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 
 # Copyright
-copyright = "&copy;2024 bjorgv.in"
+copyright = "&copy;2025 bjorgv.in"
 
 [params]
 

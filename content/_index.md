@@ -8,10 +8,7 @@ draft = false
 
 Raised in [Iceland](https://www.visiticeland.com/), living in [Stockholm, Sweden](https://www.google.com/maps?q=stockholm,+sweden), husband, father of two.
 
-B.Sc. in Industrial Engineering from the [University of Iceland](https://english.hi.is/).
+- B.Sc. in Industrial Engineering from the [University of Iceland](https://english.hi.is/).
+- M.Sc. in AI/Machine Learning from the [Royal Institute of Technology (KTH)](https://www.kth.se/en).
 
-M.Sc. in AI/Machine Learning from the [Royal Institute of Technology (KTH)](https://www.kth.se/en).
-
-I love to build things.
-
-Currently building stuff for the digital health and therapeutics innovator [Sidekick Health](https://sidekickhealth.com/).
+I love to build things. Currently building stuff for the digital health and therapeutics innovator [Sidekick Health](https://sidekickhealth.com/).
