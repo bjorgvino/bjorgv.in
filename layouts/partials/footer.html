@@ -1,3 +1,3 @@
 <div class="split-credit">
-  <p>{{ .Site.Copyright | safeHTML }} - <a href="/privacy/" title="Privacy">Privacy</a> - <a href="https://onepagelove.com/split" title="Split Template">Split Template</a> by <a href="https://onepagelove.com" title="One Page Love">One Page Love</a></p>
+  <p>{{ .Site.Copyright | safeHTML }}{{ if not .IsHome }} - <a href="/" title="Home">Home</a>{{ end }} - <a href="/privacy/" title="Privacy">Privacy</a> - <a href="https://onepagelove.com/split" title="Split Template">Split Template</a> by <a href="https://onepagelove.com" title="One Page Love">One Page Love</a></p>
 </div>

@@ -1,9 +1,7 @@
 +++
-title = ''
+title = 'Privacy'
 date = 2026-05-14T00:00:00+00:00
 +++
-
-**Privacy**
 
 This is a personal homepage. No accounts, no commerce, no third-party advertising.
 

@@ -23,3 +23,18 @@
         line-height: 50px;
     }
 }
+/* Consistent intro h1 styling across pages */
+.fs-split .split-intro h1 {
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: none;
+    letter-spacing: 0;
+    color: inherit;
+    margin-bottom: 24px;
+}
+@media (max-width: 500px) {
+    .fs-split .split-intro h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

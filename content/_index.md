@@ -1,14 +1,12 @@
 +++
-title = ''
-date = 2023-01-01T08:00:00-07:00
+title = 'Björgvin Ólafsson'
+headline = 'Hi, I am Björgvin'
+date = 2026-05-14
 draft = false
 +++
 
-**Hi, I am Björgvin!**
+Icelander in Stockholm. Husband and father of two.
 
-Raised in [Iceland](https://www.visiticeland.com/), living in [Stockholm, Sweden](https://www.google.com/maps?q=stockholm,+sweden), husband, father of two.
+Industrial engineering at the [University of Iceland](https://english.hi.is/), then AI/ML at [KTH](https://www.kth.se/en).
 
-- B.Sc. in Industrial Engineering from the [University of Iceland](https://english.hi.is/).
-- M.Sc. in AI/Machine Learning from the [Royal Institute of Technology (KTH)](https://www.kth.se/en).
-
-I love to build things. Currently building stuff for the digital health and therapeutics innovator [Sidekick Health](https://sidekickhealth.com/).
+I love to build things. These days I'm at [Sidekick Health](https://sidekickhealth.com/), working on digital therapeutics.
