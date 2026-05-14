@@ -19,7 +19,10 @@
 {{ with .Site.Params.twitterHandle }}<meta name="twitter:site" content="@{{ . }}" />{{ end }}
 
 <!-- Favicon -->
-{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . | absURL }}" />{{ end }}
+<link rel="icon" type="image/png" sizes="96x96" href="{{ "favicon-96x96.png" | absURL }}" />
+<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}" />
+<link rel="manifest" href="{{ "site.webmanifest" | absURL }}" />
 
 <!-- Styles -->
 <link rel="stylesheet" href="{{ "assets/css/split.css" | absURL }}" type="text/css" media="screen" />
@@ -35,9 +38,4 @@
     .fs-split .split-image { background-image: url("{{ .Site.Params.visual.image.file | absURL }}"); background-position: {{ if .Site.Params.visual.image.position }}{{ .Site.Params.visual.image.position }}{{ else }}center center{{ end }}; }
   {{ end }}
   </style>
-{{ end }}
-
-<!-- Google Analytics -->
-{{ if and (.Site.GoogleAnalytics) (not (in (printf "%#v" .Site.BaseURL) "localhost")) }}
-  {{ template "_internal/google_analytics.html" . }}
 {{ end }}
