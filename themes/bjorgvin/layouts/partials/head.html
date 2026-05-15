@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<script>document.documentElement.setAttribute('data-theme',new URLSearchParams(location.search).get('theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'))</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ .Title }} {{ with .Site.Title }}| {{ . }}{{ end }}</title>
 <meta name="author" content="{{ .Site.Params.author }}">
