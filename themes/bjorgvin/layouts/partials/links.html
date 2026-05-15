@@ -1,0 +1,14 @@
+{{ with .Site.Params.links }}
+<section class="links">
+  {{ range . }}
+  <div class="link-group">
+    {{ with .title }}<h3>{{ . }}</h3>{{ end }}
+    <ul>
+      {{ range .list }}
+      <li><a href="{{ .url }}" {{ if .new_tab }}target="_blank" rel="noopener"{{ end }}>{{ .text }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

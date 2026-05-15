@@ -1,0 +1,9 @@
+name = "bjorgvin"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "A minimal, clean personal site theme"
+min_version = "0.120"
+
+[author]
+  name = "Björgvin Ólafsson"
+  homepage = "https://bjorgv.in"
